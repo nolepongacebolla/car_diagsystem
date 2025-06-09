@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sistema de Diagnóstico de Vehículos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container py-5">
+        <h1 class="mb-4">Consulta de códigos de error</h1>
+        <div class="mb-3">
+            <label for="vehicleSelect" class="form-label">Seleccione un vehículo</label>
+            <select id="vehicleSelect" class="form-select">
+                <option selected disabled>Elija...</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="codeInput" class="form-label">Ingrese el código de error</label>
+            <input type="text" id="codeInput" class="form-control" placeholder="Ej. P0010">
+        </div>
+        <button id="lookupBtn" class="btn btn-primary">Buscar</button>
+        <div id="result" class="mt-4"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

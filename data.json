@@ -2,12 +2,30 @@
   "vehicles": [
     {"id": 1, "brand": "Toyota", "model": "Corolla", "year": 2010},
     {"id": 2, "brand": "Honda", "model": "Civic", "year": 2018},
-    {"id": 3, "brand": "Ford", "model": "Focus", "year": 2015}
+    {"id": 3, "brand": "Ford", "model": "Focus", "year": 2015},
+    {"id": 4, "brand": "Chevrolet", "model": "Cruze", "year": 2017},
+    {"id": 5, "brand": "Nissan", "model": "Sentra", "year": 2019}
   ],
   "codes": {
     "P0010": {
       "title": "Camshaft Position Actuator Circuit (Bank 1)",
       "details": "Este código indica un problema en el circuito del actuador de posición del árbol de levas en el banco 1. Requiere revisión del sistema VVT y cableado relacionado."
+    },
+    "P0032": {
+      "title": "HO2S Heater Control Circuit High (Bank 1 Sensor 1)",
+      "details": "Indica que el circuito calefactor del sensor de oxígeno (banco 1 sensor 1) tiene un voltaje superior al esperado. Puede deberse a un corto circuito en cables o al sensor en mal estado."
+    },
+    "P0113": {
+      "title": "Intake Air Temperature Sensor 1 Circuit High Input",
+      "details": "Se detectó un voltaje elevado en el sensor de temperatura del aire de admisión. Revise el sensor IAT y su conexión."
+    },
+    "P0171": {
+      "title": "Sistema demasiado pobre (Banco 1)",
+      "details": "La mezcla de combustible es demasiado pobre en el banco 1. Posibles causas: fuga de vacío, sensor MAF sucio o baja presión de combustible."
+    },
+    "P0172": {
+      "title": "Sistema demasiado rico (Banco 1)",
+      "details": "La mezcla de combustible es demasiado rica en el banco 1. Puede deberse a inyectores con fugas, alta presión de combustible o sensor de oxígeno defectuoso."
     },
     "P0300": {
       "title": "Fallos aleatorios/múltiples de cilindros detectados",
@@ -16,6 +34,19 @@
     "P0420": {
       "title": "Eficiencia del catalizador por debajo del umbral (Banco 1)",
       "details": "Indica que el convertidor catalítico no está funcionando de manera eficiente. Se recomienda revisar sensores de oxígeno y posibles fugas en el escape."
+    },
+    "P0442": {
+      "title": "Fuga pequeña detectada en el sistema EVAP",
+      "details": "Se detectó una fuga pequeña en el sistema EVAP. Verifique la tapa de combustible, mangueras y válvulas del sistema de evaporación."
+    },
+    "P0500": {
+      "title": "Mal funcionamiento del sensor de velocidad del vehículo",
+      "details": "El sensor de velocidad del vehículo presenta un funcionamiento incorrecto. Puede afectar el velocímetro y el control de transmisión."
+    },
+    "P0700": {
+      "title": "Fallo en el sistema de control de la transmisión",
+      "details": "El módulo de control de la transmisión ha detectado una falla. Puede mostrar códigos adicionales en la transmisión y requiere diagnóstico especializado."
     }
   }
 }
+

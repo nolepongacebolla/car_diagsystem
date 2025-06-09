@@ -1,0 +1,21 @@
+{
+  "vehicles": [
+    {"id": 1, "brand": "Toyota", "model": "Corolla", "year": 2010},
+    {"id": 2, "brand": "Honda", "model": "Civic", "year": 2018},
+    {"id": 3, "brand": "Ford", "model": "Focus", "year": 2015}
+  ],
+  "codes": {
+    "P0010": {
+      "title": "Camshaft Position Actuator Circuit (Bank 1)",
+      "details": "Este código indica un problema en el circuito del actuador de posición del árbol de levas en el banco 1. Requiere revisión del sistema VVT y cableado relacionado."
+    },
+    "P0300": {
+      "title": "Fallos aleatorios/múltiples de cilindros detectados",
+      "details": "El código P0300 señala que uno o más cilindros están fallando de manera aleatoria. Se deben revisar bujías, bobinas y sistema de combustible."
+    },
+    "P0420": {
+      "title": "Eficiencia del catalizador por debajo del umbral (Banco 1)",
+      "details": "Indica que el convertidor catalítico no está funcionando de manera eficiente. Se recomienda revisar sensores de oxígeno y posibles fugas en el escape."
+    }
+  }
+}
